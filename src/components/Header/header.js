@@ -1,14 +1,12 @@
 import React from "react";
 import { Container } from "./header.styled";
-import Button from "../Button/button";
+import Nav from "../Nav/nav";
 
 function Header() {
   return (
     <Container>
       <img src="images/logo.png" alt="sassio-word-logo" />
-      <Button>
-        <a href="/">Free sign up</a>
-      </Button>
+      <Nav />
     </Container>
   );
 }
