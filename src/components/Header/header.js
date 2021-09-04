@@ -1,14 +1,16 @@
 import React from "react";
-import { Container } from "./header.styled";
+import { Header, Container } from "./header.styled";
 import Nav from "../Nav/nav";
 
-function Header() {
+function SHeader() {
   return (
-    <Container>
-      <img src="images/logo.png" alt="sassio-word-logo" />
-      <Nav />
-    </Container>
+    <Header>
+      <Container>
+        <img src="images/logo.png" alt="sassio-word-logo" />
+        <Nav />
+      </Container>
+    </Header>
   );
 }
 
-export default Header;
+export default SHeader;
