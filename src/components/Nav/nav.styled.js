@@ -67,10 +67,12 @@ export const MobileMenu = styled.div`
   right: 0;
   width: 280px;
   height: 100vh;
+  z-index: 101;
   overflow-y: scroll;
   background-color: #fff;
   padding: 40px 0px;
   box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.19);
+  transition: all 0.7s ease-out;
   .mobile-close-icon {
     font-size: 30px;
     margin-bottom: 30px;
@@ -116,4 +118,15 @@ export const MobileMenu = styled.div`
       opacity: 1;
     }
   }
+`;
+
+export const BackDrop = styled.div`
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  right: 0%;
+  height: 120vh;
+  background-color: rgba(0, 0, 0, 0.9);
 `;

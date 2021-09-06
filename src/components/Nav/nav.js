@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Container, DesktopMenu, MobileMenu } from "./nav.styled";
+import { Container, DesktopMenu, MobileMenu, BackDrop } from "./nav.styled";
 import Button from "../Button/button";
 
 function Nav() {
@@ -37,7 +37,7 @@ function Nav() {
       </DesktopMenu>
       <Button>Free sign up</Button>
       <i className="fas fa-bars Nav-icon" onClick={openHandler}></i>
-      {setMobileMenuOpen ? (
+      {setMobileMenuOpen && (
         <MobileMenu>
           <i
             className="fas fa-times mobile-close-icon"
@@ -65,7 +65,8 @@ function Nav() {
             </li>
           </ul>
         </MobileMenu>
-      ) : null}
+      )}
+      {setMobileMenuOpen && <BackDrop />}
     </Container>
   );
 }
