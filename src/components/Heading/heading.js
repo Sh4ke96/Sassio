@@ -18,12 +18,13 @@ function Heading() {
         <div className="heading-buttons-container">
           <a href="/" className="heading-link">
             <Button className="heading-button">
-              <i class="fas fa-cloud-download-alt heading-icon"></i>Try it free
+              <i className="fas fa-cloud-download-alt heading-icon"></i>Try it
+              free
             </Button>
           </a>
           <a href="/" className="heading-link">
             <Button className="heading-button">
-              <i class="fas fa-clipboard heading-icon"></i>Get a demo
+              <i className="fas fa-clipboard heading-icon"></i>Get a demo
             </Button>
           </a>
         </div>

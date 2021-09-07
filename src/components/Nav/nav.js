@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Container, DesktopMenu, MobileMenu, BackDrop } from "./nav.styled";
 import Button from "../Button/button";
 
@@ -11,6 +11,10 @@ function Nav() {
   function closeHandler() {
     MobileMenuIsOpen(false);
   }
+  useEffect(() => {
+    const body = document.querySelector("body");
+    body.style.overflow = setMobileMenuOpen ? "hidden" : "auto";
+  }, [setMobileMenuOpen]);
   return (
     <Container>
       <DesktopMenu>

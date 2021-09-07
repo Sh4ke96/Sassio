@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 45px 15px 15px 15px;
+  padding: 100px 15px 15px 15px;
   .heading-title-tag {
     color: #951fb3;
     font-size: 18px;
