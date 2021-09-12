@@ -16,6 +16,7 @@ const SButton = styled.button`
   font-weight: 400;
   &:hover {
     cursor: pointer;
+    background-color: #972ad1;
   }
   & a {
     color: white;
