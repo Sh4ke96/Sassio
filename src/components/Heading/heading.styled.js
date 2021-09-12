@@ -63,9 +63,13 @@ export const Container = styled.div`
           text-decoration: none;
           .heading-button {
             height: 50px;
-            width: 175px;
+            width: 155px;
             font-size: 18px;
             margin-right: 15px;
+            @media screen and (min-width: 1000px) {
+              height: 50px;
+              width: 175px;
+            }
             .heading-icon {
               margin-right: 10px;
             }
