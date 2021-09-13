@@ -17,6 +17,7 @@ const SButton = styled.button`
   &:hover {
     cursor: pointer;
     background-color: #972ad1;
+    transition-duration: 0.75s;
   }
   & a {
     color: white;

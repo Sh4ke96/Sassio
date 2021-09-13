@@ -29,5 +29,6 @@ export const Container = styled.div`
   &:hover {
     cursor: pointer;
     border: 3px solid #951fb3;
+    transition-duration: 0.75s;
   }
 `;
