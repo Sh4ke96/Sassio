@@ -13,6 +13,7 @@ export const Container = styled.nav`
   }
   .Nav-icon:hover {
     cursor: pointer;
+    color: #972ad1;
   }
 `;
 
