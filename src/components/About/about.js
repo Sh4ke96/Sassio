@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../Card/card";
+import Card from "../Cards/card";
 import { Container } from "./about.styled";
 
 function About() {
