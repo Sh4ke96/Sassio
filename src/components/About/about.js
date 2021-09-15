@@ -53,6 +53,10 @@ function About() {
           }
         />
       </div>
+      <a className="about-link" href="/">
+        Want to download this app?
+        <i className="about-link-icon fas fa-long-arrow-alt-right"></i>
+      </a>
     </Container>
   );
 }
