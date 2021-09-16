@@ -3,6 +3,7 @@ import Heading from "./components/Heading/heading";
 import About from "./components/About/about";
 import About2 from "./components/About2/about2";
 import Features from "./components/Features/features";
+import Features2 from "./components/Features2/features2";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <About2 />
       <Features />
+      <Features2 />
     </>
   );
 }
