@@ -10,13 +10,14 @@ export default class Responsive extends Component {
     let settings = {
       centerMode: true,
       centerPadding: 0,
+      dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 1000,
+          breakpoint: 1100,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -30,7 +31,7 @@ export default class Responsive extends Component {
           },
         },
         {
-          breakpoint: 600,
+          breakpoint: 799,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
