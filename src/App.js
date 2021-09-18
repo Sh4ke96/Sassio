@@ -6,6 +6,7 @@ import Features from "./components/Features/features";
 import Features2 from "./components/Features2/features2";
 import Team from "./components/Team/team";
 import Faq from "./components/Faq/faq";
+import Price from "./components/Price/price";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Features2 />
       <Team />
       <Faq />
+      <Price />
     </>
   );
 }
