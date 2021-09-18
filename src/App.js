@@ -7,6 +7,7 @@ import Features2 from "./components/Features2/features2";
 import Team from "./components/Team/team";
 import Faq from "./components/Faq/faq";
 import Price from "./components/Price/price";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Team />
       <Faq />
       <Price />
+      <Footer />
     </>
   );
 }
