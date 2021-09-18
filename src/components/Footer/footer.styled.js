@@ -13,7 +13,6 @@ export const Container = styled.div`
     max-width: 1200px;
     @media screen and (min-width: 1000px) {
       flex-direction: row;
-      justify-content: center;
     }
     .footer-main {
       display: flex;
@@ -84,6 +83,11 @@ export const Container = styled.div`
               }
             }
           }
+          .footer-links-link:hover {
+            cursor: pointer;
+            transition: all 0.75s;
+            color: #951fb3;
+          }
         }
       }
     }
@@ -112,6 +116,11 @@ export const Container = styled.div`
           @media screen and (min-width: 1000px) {
             margin-bottom: 20px;
           }
+        }
+        .footer-socials-icon:hover {
+          cursor: pointer;
+          transition: all 0.75s;
+          color: #951fb3;
         }
       }
     }

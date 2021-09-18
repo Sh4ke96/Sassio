@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "./footer.styled";
-import Button from "../Button/button";
 
 function Footer() {
   return (
