@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Sassio/static/css/main.46205aef.chunk.css",
+    "main.js": "/Sassio/static/js/main.f8414573.chunk.js",
+    "main.js.map": "/Sassio/static/js/main.f8414573.chunk.js.map",
+    "runtime-main.js": "/Sassio/static/js/runtime-main.95d39b9b.js",
+    "runtime-main.js.map": "/Sassio/static/js/runtime-main.95d39b9b.js.map",
+    "static/css/2.5df3bb35.chunk.css": "/Sassio/static/css/2.5df3bb35.chunk.css",
+    "static/js/2.2dcfd98b.chunk.js": "/Sassio/static/js/2.2dcfd98b.chunk.js",
+    "static/js/2.2dcfd98b.chunk.js.map": "/Sassio/static/js/2.2dcfd98b.chunk.js.map",
+    "index.html": "/Sassio/index.html",
+    "static/css/2.5df3bb35.chunk.css.map": "/Sassio/static/css/2.5df3bb35.chunk.css.map",
+    "static/css/main.46205aef.chunk.css.map": "/Sassio/static/css/main.46205aef.chunk.css.map",
+    "static/js/2.2dcfd98b.chunk.js.LICENSE.txt": "/Sassio/static/js/2.2dcfd98b.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/Sassio/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95d39b9b.js",
+    "static/css/2.5df3bb35.chunk.css",
+    "static/js/2.2dcfd98b.chunk.js",
+    "static/css/main.46205aef.chunk.css",
+    "static/js/main.f8414573.chunk.js"
+  ]
+}
