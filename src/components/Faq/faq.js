@@ -4,7 +4,7 @@ import Example from "../Accordion/accordion";
 
 function Faq() {
   return (
-    <Container>
+    <Container id="faq">
       <div className="faq-heading">
         <span className="faq-title-tag">Frequently asked questions </span>
         <h1 className="faq-title">

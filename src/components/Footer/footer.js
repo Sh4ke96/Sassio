@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "./footer.styled";
+import { Link } from "react-scroll";
 
 function Footer() {
   return (
@@ -7,7 +8,13 @@ function Footer() {
       <div className="footer-wrapper">
         <div className="footer-main">
           <div className="footer-main-info">
-            <img src="/images/logo-light.png" alt="" />
+            <Link to="home" smooth={true} offset={-100} duration={600}>
+              <img
+                className="footer-logo"
+                src="/images/logo-light.png"
+                alt=""
+              />
+            </Link>
             <div className="footer-main-about">
               <div className="footer-main-about-text-container">
                 <span className="footer-main-about-text">
@@ -31,16 +38,28 @@ function Footer() {
           <h2 className="footer-links-title">Links</h2>
           <div className="footer-links-container">
             <ul className="footer-links-ul">
-              <a href="/" className="footer-links-link">
+              <Link
+                to="home"
+                smooth={true}
+                offset={-100}
+                duration={600}
+                className="footer-links-link"
+              >
                 <li className="footer-links-item">
                   <i className="fas fa-chevron-right"></i>Home
                 </li>
-              </a>
-              <a href="/" className="footer-links-link">
+              </Link>
+              <Link
+                to="faq"
+                smooth={true}
+                offset={-70}
+                duration={600}
+                className="footer-links-link"
+              >
                 <li className="footer-links-item">
                   <i className="fas fa-chevron-right"></i>FAQ
                 </li>
-              </a>
+              </Link>
               <a href="/" className="footer-links-link">
                 <li className="footer-links-item">
                   <i className="fas fa-chevron-right"></i>Gallery
@@ -58,21 +77,39 @@ function Footer() {
               </a>
             </ul>
             <ul className="footer-links-ul">
-              <a href="/" className="footer-links-link">
+              <Link
+                to="team"
+                smooth={true}
+                offset={-70}
+                duration={600}
+                className="footer-links-link"
+              >
                 <li className="footer-links-item">
                   <i className="fas fa-chevron-right"></i>Team
                 </li>
-              </a>
-              <a href="/" className="footer-links-link">
+              </Link>
+              <Link
+                to="service"
+                smooth={true}
+                offset={-100}
+                duration={600}
+                className="footer-links-link"
+              >
                 <li className="footer-links-item">
                   <i className="fas fa-chevron-right"></i>Services
                 </li>
-              </a>
-              <a href="/" className="footer-links-link">
+              </Link>
+              <Link
+                to="about"
+                smooth={true}
+                offset={-70}
+                duration={600}
+                className="footer-links-link"
+              >
                 <li className="footer-links-item">
                   <i className="fas fa-chevron-right"></i>About us
                 </li>
-              </a>
+              </Link>
               <a href="/" className="footer-links-link">
                 <li className="footer-links-item">
                   <i className="fas fa-chevron-right"></i>Testimonials

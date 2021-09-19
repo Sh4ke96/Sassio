@@ -29,6 +29,9 @@ export const Container = styled.div`
           width: 100%;
           height: auto;
         }
+        .footer-logo:hover {
+          cursor: pointer;
+        }
         .footer-main-about-text-container {
           display: flex;
           flex-direction: column;
