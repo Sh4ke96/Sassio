@@ -4,7 +4,7 @@ import { Container } from "./about.styled";
 
 function About() {
   return (
-    <Container>
+    <Container id="service">
       <span className="about-title-tag">Our awesome services</span>
       <h1 className="about-title">
         <span className="about-title-color">We give</span> best facilites

@@ -4,7 +4,7 @@ import PriceCard from "../Cards/priceCard";
 
 function Price() {
   return (
-    <Container>
+    <Container id="price">
       <div className="price-heading">
         <span className="price-title-tag">Pricing</span>
         <h1 className="price-title">

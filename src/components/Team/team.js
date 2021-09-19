@@ -40,7 +40,7 @@ export default class Responsive extends Component {
       ],
     };
     return (
-      <Container>
+      <Container id="team">
         <div className="team-heading">
           <span className="team-title-tag">Our team members</span>
           <h1 className="team-title">Our team members</h1>

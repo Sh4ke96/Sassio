@@ -5,7 +5,7 @@ import FeaturesCard from "../Cards/featuresCard";
 
 function Features() {
   return (
-    <Container>
+    <Container id="features">
       <div className="features-heading">
         <span className="features-title-tag">Our awesome features</span>
         <h1 className="features-title">

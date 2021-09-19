@@ -4,7 +4,7 @@ import Button from "../Button/button";
 
 function Heading() {
   return (
-    <Container>
+    <Container id="home">
       <div className="heading-wrapper">
         <span className="heading-title-tag">Creative SAAS webiste</span>
         <h1 className="heading-title">

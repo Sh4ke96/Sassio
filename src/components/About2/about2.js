@@ -3,7 +3,7 @@ import { Container } from "./about2.styled";
 
 function About2() {
   return (
-    <Container>
+    <Container id="about">
       <div className="about-container">
         <div className="about-image">
           <img src="images/about2-img.png" alt="" />

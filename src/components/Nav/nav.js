@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Container, DesktopMenu, MobileMenu, BackDrop } from "./nav.styled";
 import Button from "../Button/button";
+import { Link } from "react-scroll";
 
 function Nav() {
   const [setMobileMenuOpen, MobileMenuIsOpen] = useState(false);
@@ -20,22 +21,76 @@ function Nav() {
       <DesktopMenu>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={600}
+              activeClass="active"
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <a href="/">Service</a>
+            <Link
+              to="service"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={600}
+              activeClass="active"
+            >
+              Service
+            </Link>
           </li>
           <li>
-            <a href="/">About</a>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={600}
+              activeClass="active"
+            >
+              About
+            </Link>
           </li>
           <li>
-            <a href="/">Features</a>
+            <Link
+              to="features"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={600}
+              activeClass="active"
+            >
+              Features
+            </Link>
           </li>
           <li>
-            <a href="/">Team</a>
+            <Link
+              to="team"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={600}
+              activeClass="active"
+            >
+              Team
+            </Link>
           </li>
           <li>
-            <a href="/">Pricing</a>
+            <Link
+              to="price"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={600}
+              activeClass="active"
+            >
+              Pricing
+            </Link>
           </li>
         </ul>
       </DesktopMenu>
@@ -50,7 +105,7 @@ function Nav() {
           <img src="images/logo.png" alt="sassio-word-logo" />
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a href="home">Home</a>
             </li>
             <li>
               <a href="/">Service</a>

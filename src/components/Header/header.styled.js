@@ -18,4 +18,7 @@ export const Container = styled.div`
   @media screen and (min-width: 1000px) {
     margin: 0 auto;
   }
+  .header-logo {
+    cursor: pointer;
+  }
 `;
