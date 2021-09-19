@@ -105,22 +105,82 @@ function Nav() {
           <img src="images/logo.png" alt="sassio-word-logo" />
           <ul>
             <li>
-              <a href="home">Home</a>
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={600}
+                activeClass="active"
+                onClick={closeHandler}
+              >
+                Home
+              </Link>
             </li>
             <li>
-              <a href="/">Service</a>
+              <Link
+                to="service"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={600}
+                activeClass="active"
+                onClick={closeHandler}
+              >
+                Service
+              </Link>
             </li>
             <li>
-              <a href="/">About</a>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={600}
+                activeClass="active"
+                onClick={closeHandler}
+              >
+                About
+              </Link>
             </li>
             <li>
-              <a href="/">Features</a>
+              <Link
+                to="features"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={600}
+                activeClass="active"
+                onClick={closeHandler}
+              >
+                Features
+              </Link>
             </li>
             <li>
-              <a href="/">Team</a>
+              <Link
+                to="team"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={600}
+                activeClass="active"
+                onClick={closeHandler}
+              >
+                Team
+              </Link>
             </li>
             <li>
-              <a href="/">Pricing</a>
+              <Link
+                to="price"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={600}
+                activeClass="active"
+                onClick={closeHandler}
+              >
+                Pricing
+              </Link>
             </li>
           </ul>
         </MobileMenu>
