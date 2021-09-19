@@ -17,7 +17,7 @@ function TeamCard(props) {
             <i className="teamcard-contact-icon fas fa-phone"></i>123-345-214
           </span>
           <span className="teamcard-contact-mail">
-            <i class="teamcard-contact-icon fas fa-envelope"></i>
+            <i className="teamcard-contact-icon fas fa-envelope"></i>
             sample@sample.com
           </span>
         </div>

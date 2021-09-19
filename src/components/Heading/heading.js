@@ -1,10 +1,17 @@
 import React from "react";
 import { Container } from "./heading.styled";
 import Button from "../Button/button";
+import { animateScroll as scroll } from "react-scroll";
 
 function Heading() {
+  const scrollToHome = () => {
+    scroll.scrollToTop();
+  };
   return (
     <Container id="home">
+      <Button onClick={scrollToHome} className="scroll-up-btn">
+        <i className="fas fa-arrow-up"></i>
+      </Button>
       <div className="heading-wrapper">
         <span className="heading-title-tag">Creative SAAS webiste</span>
         <h1 className="heading-title">

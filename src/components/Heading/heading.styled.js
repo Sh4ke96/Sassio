@@ -12,6 +12,12 @@ export const Container = styled.div`
     margin: 0 auto;
     padding: 150px 15px 15px 15px;
   }
+  .scroll-up-btn {
+    position: fixed;
+    width: 50px;
+    bottom: 30px;
+    right: 15px;
+  }
   .heading-wrapper {
     display: flex;
     flex-direction: column;
